@@ -52,7 +52,7 @@ System.out.println(numbers.length); // Output: 5
 6. 	WAP to reverse an array
 7.	WAP to find largest element from an array
 8. 	WAP to find smallest element from an array
-9.   WAP to find the difference of maximum and minimum element of an array
+9.    WAP to find the difference of maximum and minimum element of an array
 10.	WAP to find the second largest element in an array
 11.	WAP to find the second smallest element in an array
 12.	WAP to sort an array in ascending order
