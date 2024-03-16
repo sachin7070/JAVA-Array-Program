@@ -13,11 +13,13 @@ Arrays in Java are zero-indexed, meaning the index of the first element is 0, th
 ### Declaration:
 ```java
 dataType[] arrayName;
+```
 Initialization:
-
+```java
 dataType[] arrayName = new dataType[arraySize];
+```
 Example:
-
+```java
 // Declaration
 int[] numbers;
 
@@ -26,11 +28,13 @@ numbers = new int[5];
 
 // Array Literal Initialization
 int[] numbers = {1, 2, 3, 4, 5};
+```
+
 Accessing Elements:
 
 arrayName[index];
 Example:
-
+```java
 int[] numbers = {10, 20, 30, 40, 50};
 System.out.println(numbers[0]); // Output: 10
 System.out.println(numbers[2]); // Output: 30
@@ -41,6 +45,7 @@ Example:
 
 int[] numbers = {10, 20, 30, 40, 50};
 System.out.println(numbers.length); // Output: 5
+```
 
 ## Questions and Programs
 
