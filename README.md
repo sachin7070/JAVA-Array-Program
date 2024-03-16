@@ -39,11 +39,14 @@ Example:
 int[] numbers = {10, 20, 30, 40, 50};
 System.out.println(numbers[0]); // Output: 10
 System.out.println(numbers[2]); // Output: 30
+```
+
 Array Length:
-
+```java
 arrayName.length;
+```
 Example:
-
+```java
 int[] numbers = {10, 20, 30, 40, 50};
 System.out.println(numbers.length); // Output: 5
 ```
