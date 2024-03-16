@@ -31,8 +31,9 @@ int[] numbers = {1, 2, 3, 4, 5};
 ```
 
 Accessing Elements:
-
+```java
 arrayName[index];
+```
 Example:
 ```java
 int[] numbers = {10, 20, 30, 40, 50};
@@ -45,6 +46,40 @@ Example:
 
 int[] numbers = {10, 20, 30, 40, 50};
 System.out.println(numbers.length); // Output: 5
+```
+### Multidimensional Arrays:
+
+Definition: A multidimensional array in Java is an array of arrays. It allows you to store elements in multiple dimensions, such as rows and columns.
+
+Declaration and Initialization:
+
+```java
+// Declaration
+int[][] matrix;
+
+// Initialization
+matrix = new int[3][4]; // Creates a 2D array with 3 rows and 4 columns
+```
+Accessing Elements:
+
+Elements of a multidimensional array are accessed using multiple indices. For a 2D array, you need two indices: one for the row and one for the column.
+```java
+matrix[0][0] = 1; // Assigns 1 to the element at the first row and first column
+int y = matrix[1][2]; // Retrieves the value of the element at the second row and third column
+
+```
+Initialization with Values:
+
+You can initialize a multidimensional array with specific values at the time of declaration.
+
+```java
+int[][] matrix = { {1, 2, 3}, {4, 5, 6}, {7, 8, 9} }; // Initializes a 2D array with specific values
+```
+Ragged Arrays:
+
+In Java, multidimensional arrays can have different lengths for each row. Such arrays are called ragged arrays.
+```java
+int[][] raggedArray = { {1, 2}, {3, 4, 5}, {6} }; // Initializes a ragged 2D array
 ```
 
 ## Questions and Programs
